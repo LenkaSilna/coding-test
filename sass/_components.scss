@@ -52,7 +52,6 @@
     }
 
     &--text {
-      padding: 1em;
       max-width: 500px;
 
       @include mqMax(990px) {

@@ -52,7 +52,6 @@
   }
 }
 .main__box--text {
-  padding: 1em;
   max-width: 500px;
 }
 @media all and (max-width: 990px) {

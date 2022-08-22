@@ -11,6 +11,12 @@
     justify-content: flex-end;
     gap: 2em;
     padding: 2.2em;
+    > li {
+      > a {
+        color: $font-color;
+        text-decoration: none;
+      }
+    }
 
     @include mqMax(430px) {
       display: flex;
@@ -69,6 +75,7 @@
         margin: 0 auto 2.2em auto;
         background-color: $bg-color-secundary;
         text-transform: uppercase;
+        cursor: pointer;
 
         @include mqMin(990px) {
           margin: 3em 0;

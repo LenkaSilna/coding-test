@@ -13,6 +13,10 @@
   gap: 2em;
   padding: 2.2em;
 }
+.nav > ul > li > a {
+  color: #ffffff;
+  text-decoration: none;
+}
 @media all and (max-width: 430px) {
   .nav > ul {
     display: flex;
@@ -71,6 +75,7 @@
   margin: 0 auto 2.2em auto;
   background-color: #3697a7;
   text-transform: uppercase;
+  cursor: pointer;
 }
 @media all and (min-width: 990px) {
   .main__box--text .btn {

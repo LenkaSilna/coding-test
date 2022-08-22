@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap");
+.nav {
+  background-color: #1f464d;
+  width: 100%;
+  margin-bottom: 2.2em;
+}
+.nav > ul {
+  margin-block-start: -0.5em;
+  margin-block-end: 0;
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  gap: 2em;
+  padding: 2.2em;
+}
+@media all and (max-width: 430px) {
+  .nav > ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+  }
+}
+
+.main {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.main__box {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+}
+@media all and (min-width: 990px) {
+  .main__box {
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+}
+.main__box > img {
+  width: 100%;
+  max-width: 300px;
+}
+@media all and (max-width: 350px) {
+  .main__box > img {
+    display: none;
+  }
+}
+.main__box--text {
+  padding: 1em;
+  max-width: 500px;
+}
+.main__box--text .title {
+  margin-top: 0;
+  font-size: 2em;
+  font-weight: 300;
+}
+.main__box--text .btn {
+  display: block;
+  border: none;
+  max-width: 350px;
+  width: 100%;
+  height: 3em;
+  margin: 0 auto 2.2em auto;
+  background-color: #3697a7;
+  text-transform: uppercase;
+}
+@media all and (min-width: 990px) {
+  .main__box--text .btn {
+    margin: 1em 0;
+  }
+}
+
+.boxes__title {
+  text-align: center;
+}
+.boxes__group {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2em;
+}
+@media all and (min-width: 990px) {
+  .boxes__group {
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+
+.box {
+  max-width: 300px;
+  background-color: #3697a7;
+}
+.box > img {
+  width: 100%;
+}
+.box__text {
+  padding: 1em;
+  text-align: left;
+}
+.box__text > h3 {
+  margin-top: 0;
+  font-size: 1em;
+}
+
+.footer {
+  padding: 2.2em;
+  text-align: center;
+}
+
+html,
+body {
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  font-size: 18px;
+  background: #333333;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  outline: 0;
+}
+
+h1,
+h2 {
+  font-weight: 300;
+}
+
+/*# sourceMappingURL=style.css.map */

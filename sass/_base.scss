@@ -1,0 +1,19 @@
+$bg-color: #333333;
+$bg-color-nav: #1f464d;
+$bg-color-secundary: #3697a7;
+$font-color: #ffffff;
+$font-size: 18px;
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
+
+@mixin mqMax($breakpoint) {
+  @media all and (max-width: $breakpoint) {
+    @content;
+  }
+}
+
+@mixin mqMin($breakpoint) {
+  @media all and (min-width: $breakpoint) {
+    @content;
+  }
+}

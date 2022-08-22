@@ -1,0 +1,31 @@
+html,
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: $font-color;
+  font-size: $font-size;
+  //line-height: $fontLineHeight;
+  background: $bg-color;
+  box-sizing: border-box;
+  //font-weight: 400;
+  scroll-behavior: smooth;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  outline: 0;
+}
+
+h1,
+h2 {
+  font-weight: 300;
+}
+
+$breakpoints: (
+  xs: 520px,
+  sm: 750px,
+  md: 990px,
+  lg: 1270px,
+  xl: 1520px,
+);

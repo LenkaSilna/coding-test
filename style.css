@@ -104,6 +104,7 @@
   .boxes__group {
     flex-direction: row;
     justify-content: space-between;
+    margin: 0 0 8em 0;
   }
 }
 

@@ -1,8 +1,7 @@
 ### Test project for Brilo
 
 ## Design
-
-<img href="img/uqv1i01.jpeg" alt="">
+![image info](./img/uqv1i01.jpeg)
 
 ## Used tools
 

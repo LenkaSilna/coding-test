@@ -72,14 +72,14 @@
         display: inline-block;
         color: #ffffff;
         font-size: 13px;
-        margin-top: 2rem;
-        padding: 0.5rem 3.5rem;
+        padding: 0.5rem 4.5rem;
         background-color: #3697a7;
         text-transform: uppercase;
         text-decoration: none;
 
         @include mqMax(990px) {
           margin-bottom: 2rem;
+          padding: 0.5rem 2.5rem;
         }
 
         @include mqMin(990px) {

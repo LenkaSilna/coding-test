@@ -1,5 +1,5 @@
 ## Test project for Brilo
-Prepare frontend stack and build on this simple design of webpage.
+Frontend stack of this simple design of webpage.
 
 ## Design
 ![image info](./img/uqv1i01.jpeg)

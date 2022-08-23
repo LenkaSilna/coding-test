@@ -71,6 +71,7 @@
       .btn {
         display: inline-block;
         color: #ffffff;
+        font-size: 13px;
         margin-top: 2rem;
         padding: 0.5rem 3.5rem;
         background-color: #3697a7;
@@ -120,6 +121,7 @@
   background-color: $bg-color-secundary;
   > img {
     width: 100%;
+    height: auto;
   }
 
   &__text {
@@ -128,8 +130,11 @@
 
     > h3 {
       text-transform: uppercase;
-      margin-top: 0;
       font-size: 0.9rem;
+    }
+
+    > p {
+      font-size: 13px;
     }
   }
 }

@@ -49,6 +49,7 @@ h2 {
 .main {
   max-width: 1000px;
   margin: 0 auto;
+  padding: 0 1rem;
 }
 .main__box {
   display: flex;

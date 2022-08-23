@@ -41,7 +41,7 @@
       margin: 8rem 0;
     }
 
-    > img {
+    .img {
       width: 100%;
       max-width: 300px;
 
@@ -114,15 +114,16 @@
       margin-bottom: 8rem;
     }
   }
+
+  .img {
+    width: 100%;
+    height: auto;
+  }
 }
 
 .box {
   max-width: 300px;
   background-color: $bg-color-secundary;
-  > img {
-    width: 100%;
-    height: auto;
-  }
 
   &__text {
     padding: 1rem;

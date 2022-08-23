@@ -63,12 +63,12 @@ h2 {
     margin: 8rem 0;
   }
 }
-.main__box > img {
+.main__box .img {
   width: 100%;
   max-width: 300px;
 }
 @media all and (max-width: 350px) {
-  .main__box > img {
+  .main__box .img {
     display: none;
   }
 }
@@ -136,14 +136,14 @@ h2 {
     margin-bottom: 8rem;
   }
 }
+.boxes .img {
+  width: 100%;
+  height: auto;
+}
 
 .box {
   max-width: 300px;
   background-color: #3697a7;
-}
-.box > img {
-  width: 100%;
-  height: auto;
 }
 .box__text {
   padding: 1rem;
